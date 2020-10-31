@@ -1,0 +1,137 @@
+ 
+*
+{
+    /* font-family: 'Orbitron', sans-serif; */
+    box-sizing: border-box; 
+}
+body
+{
+    padding: 0; 
+    margin: 0; 
+    background-color: #131419;
+    
+}
+h2
+{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder !important; 
+    color: white;
+}
+.main
+{
+    width: 430px;
+    border:1px solid #4B878BFF;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 10px; 
+    background-color: #131419;
+    box-shadow:  -5px -5px 10px rgba(75, 135, 139,0.05),
+     5px 5px 15px rgba(75, 135, 139,0.2)  ;
+}
+.button
+{
+    width: 70px;
+    height: 75px;
+    color: white;
+    font-size: .5rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border:1px solid #4B878BFF;
+    /* border:1px solid #20222c; */
+    padding: 3px;
+    margin: 4px;
+    background: linear-gradient(to left, rgba(19, 20, 25, 0.671),rgba(77, 80, 95, 0.671),rgba(19, 20, 25, 0.671));
+    outline: none;
+    box-shadow:  -5px -5px 5px rgba(75, 135, 139,0.05),
+     5px 5px 5px rgba(75, 135, 139,0.2)  ;
+    cursor: pointer;
+}
+.textview
+{
+    width:390px;
+    border-radius: 1pc;
+    margin: 5px;
+    font-size: 28px;
+    padding: 5px;
+    height: 85px; 
+    background: linear-gradient(to left, rgba(19, 20, 25, 0.671),rgba(74, 78, 95, 0.411),rgba(19, 20, 25, 0.671));
+    /* background-color: #131419!important; */
+    box-shadow: inset -2px -2px 6px rgba(75, 135, 139,0.1),
+    inset 5px 5px 15px rgba(75, 135, 139,0.3)   ;
+    color: white;
+    border:1px solid #4B878BFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end !important;
+    justify-content: space-around;
+    flex-direction: column; 
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}  
+.button:hover
+{
+    /* background-color: black; */
+    color: black;
+    font-weight: bolder !important;
+    background: linear-gradient(to top, rgba(41, 40, 40, 0.835),rgba(139, 137, 137, 0.746),rgba(34, 33, 33, 0.74));
+}
+#bigger
+{
+    height:160px;
+}
+#biggers
+{
+    width:150px;
+}
+@media screen and (max-width:765px)
+{
+    .main
+    {
+    width: 270px;
+    /* border:none; */
+    border-radius: 15px;
+    margin-left: 6%;
+    margin-right: 6%;
+    background: none ;
+    padding: 5px;  
+    }
+    .button
+    {
+    width: 55px;
+    height: 62px;
+    font-size: 1rem;
+    border-radius: 10px; 
+    padding: 1px;
+    margin: 1px;  
+    }
+    .textview
+    {
+    width:240px;
+    border-radius: 1pc;
+    margin: 5px;
+    font-size: 24px;
+    padding: 3px;
+    height: 68px;   
+    border:2px solid black;
+    border-radius: 10px; 
+    padding: 10px; 
+    }  
+    /* #bigger
+    {
+    height:100px;
+    } */
+    h5
+    {
+        font-size: 16px !important;
+        text-align: center !important; 
+    }
+    h2
+    {
+        text-align: center !important; 
+        font-size: large;
+        font-weight: bold;
+    }
+}
